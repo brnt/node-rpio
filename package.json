@@ -1,0 +1,21 @@
+{
+  "name": "rpio",
+  "version": "0.0.1",
+  "description": "(Real) Raspberry Pi GPIO library",
+  "main": "./lib/rpio.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [
+    "rpi",
+    "gpio",
+    "raspberry",
+    "pi",
+	"rpio"
+  ],
+  "author": "Brent Thomson",
+  "license": "GPL",
+  "gypfile": true
+}
